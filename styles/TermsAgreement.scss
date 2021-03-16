@@ -1,0 +1,13 @@
+.agreement{
+    @extend %default-page;
+      
+    .section{
+        &.section-gallery{
+            .gallery-item{
+                width: 100%;
+                text-align: left;
+            }
+        }
+    }
+
+}
